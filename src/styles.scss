@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+/* For use in _color-definitions.scss */
+$palette-mcgpalette0:
+rgb(249, 224, 224)
+rgb(240, 179, 179)
+rgb(230, 128, 128)
+rgb(219, 77, 77)
+rgb(212, 38, 38)
+rgb(204, 0, 0)
+rgb(199, 0, 0)
+rgb(192, 0, 0)
+rgb(185, 0, 0)
+rgb(173, 0, 0)
+rgb(255, 215, 215)
+rgb(255, 164, 164)
+rgb(255, 113, 113)
+rgb(255, 88, 88)
+;
+
+$palette-mcgpalette0-50: nth($palette-mcgpalette0, 1);
+$palette-mcgpalette0-100: nth($palette-mcgpalette0, 2);
+$palette-mcgpalette0-200: nth($palette-mcgpalette0, 3);
+$palette-mcgpalette0-300: nth($palette-mcgpalette0, 4);
+$palette-mcgpalette0-400: nth($palette-mcgpalette0, 5);
+$palette-mcgpalette0-500: nth($palette-mcgpalette0, 6);
+$palette-mcgpalette0-600: nth($palette-mcgpalette0, 7);
+$palette-mcgpalette0-700: nth($palette-mcgpalette0, 8);
+$palette-mcgpalette0-800: nth($palette-mcgpalette0, 9);
+$palette-mcgpalette0-900: nth($palette-mcgpalette0, 10);
+$palette-mcgpalette0-A100: nth($palette-mcgpalette0, 11);
+$palette-mcgpalette0-A200: nth($palette-mcgpalette0, 12);
+$palette-mcgpalette0-A400: nth($palette-mcgpalette0, 13);
+$palette-mcgpalette0-A700: nth($palette-mcgpalette0, 14);
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
